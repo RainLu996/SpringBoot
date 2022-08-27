@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+</head>
+<body>
+    <center>
+        <h3>选择表达式</h3>
+        <p th:text="*{student.id}">也可以像标准表达式一样的语法写</p>
+
+        <div th:object="${student}">
+            <p th:text="*{id}">身份编号</p>
+            <p th:text="*{name}">姓名</p>
+            <p th:text="*{age}">年龄</p>
+        </div>
+    </center>
+</body>
+</html>

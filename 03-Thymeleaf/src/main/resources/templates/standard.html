@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Standard</title>
+</head>
+<body>
+    <center>
+        <h3>标准表达式</h3>
+        <p th:text="${site}">静态数据</p>
+
+        <!-- .id与.getXXX是一样的使用效果 -->
+        <p th:text="'拼接字符串' + ${student.id}">身份编号</p>
+        <p th:text="${student.name}">姓名</p>
+        <p th:text="${student.age}">年龄</p>
+
+        <p th:text="${student.getId()}">身份编号</p>
+        <p th:text="${student.getName()}">姓名</p>
+        <p th:text="${student.getAge()}">年龄</p>
+    </center>
+</body>
+</html>

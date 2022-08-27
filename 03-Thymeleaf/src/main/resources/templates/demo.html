@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    <h2>使用模板：语法一</h2>
+    <div th:insert="~{custom/template :: top}">
+        我是 div，insert 模板 top
+    </div>
+    <hr/>
+    <h2>使用模板：语法二</h2>
+    <p th:insert="custom/template :: top">
+        insert
+    </p>
+    <hr/>
+    <br/>
+    <h2></h2>
+    <div th:include="custom/template :: footer">
+        我是当前的 div
+    </div>
+    <hr/>
+    <!-- 使用整个模板文件 -->
+    <div th:include="custom/template :: html"></div>
+    <hr/>
+</body>
+</html>

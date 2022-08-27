@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/01-javaConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-javaConfig/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-SpringBoot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-SpringBoot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-SpringBoot/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-Thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-SpringBoot-Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-SB-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-SB-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-dubbo-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/32-dubbo-zk-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/32-dubbo-zk-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/42-SB-dubbo-redis-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/42-SB-dubbo-redis-provider/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

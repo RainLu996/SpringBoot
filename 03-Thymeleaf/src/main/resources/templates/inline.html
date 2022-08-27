@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inline</title>
+</head>
+<body>
+    <button onclick="fun()">单击按钮</button>
+    <script type="text/javascript" th:inline="javascript">
+        var name = [[${myuser.name}]];
+        var id = [[${myuser.id}]];
+        function fun() {
+            alert("click 用户是"+name+",他的 id 是"+id);
+        }
+    </script>
+
+
+    <div th:inline="text">
+        姓名是：[[${name}]] <br/>
+        登录了吗：[[${isLogin}]]
+    </div>
+    <br/>
+    <br/>
+    <hr/>
+    <!--不用加入 th:inline='text'-->
+    <div>
+        姓名是：[[${name}]] <br/>
+        登录了吗：[[${isLogin}]]<br/>
+        性别：[[${sex}]]
+    </div>
+</body>
+</html>

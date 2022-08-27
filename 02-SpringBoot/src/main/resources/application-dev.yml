@@ -1,0 +1,39 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /dev
+    encoding:
+      enabled: true #启用SpringBoot中自定义的 CharacterEncodingFilter 的设置（为false为使用自定义的过滤器）
+      charset: UTF-8
+      force: true
+
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  mvc:
+    view:  #配置视图解析器
+      prefix: /  # / 相当于 src/main/webapp 目录
+      suffix: .jsp
+    hiddenmethod:
+      filter:
+        enabled: true  #启用 HiddenHttpMethodFilter 这个过滤器， 支持 post 请求转为 put，delete
+
+
+#指定 mybatis 的配置， 相当于 mybatis 主配置文件的作用
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #打印日志
+
+#指定 MyBatisPlus 的配置， 相当于 mybatis 主配置文件的作用
+mybatis-plus:
+  # 设置 MyBatisPlus 的全局配置（用于解决@TableName注解每次都写一个 公共前缀 的问题）
+  global-config:
+    db-config:
+      table-prefix: t_
+

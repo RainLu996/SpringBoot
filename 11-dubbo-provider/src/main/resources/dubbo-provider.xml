@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!-- Spring的配置文件与dubbo【服务提供者】的配置文件 -->
+
+
+    <!-- 声明服务的名称：自定义的名字表示当前服务在dubbo框架中的唯一标识 -->
+    <dubbo:application name="11-dubbo-provider"/>
+
+
+    <!-- 访问服务的协议及端口号 -->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!-- 声明服务的接口信息。暴露服务。只有将服务暴露，消费者才能调用 -->
+    <!-- 暴露服务的接口实现类：真正提供服务的功能实现的类
+            interface：暴露服务接口的全限定类名
+            ref：接口的实现类在Spring容器中的标识
+            registry：如果不使用dubbo注册中心，就写为“N/A”
+     -->
+    <dubbo:service interface="com.lujun61.service.QueryUserInfo" ref="queryUserInfoImpl" registry="N/A"/>
+
+    <!-- 将接口的实现类交给Spring容器创建 -->
+    <bean id="queryUserInfoImpl" class="com.lujun61.service.impl.QueryUserInfoImpl"/>
+</beans>

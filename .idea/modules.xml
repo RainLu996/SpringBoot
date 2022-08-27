@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-javaConfig/01-javaConfig.iml" filepath="$PROJECT_DIR$/01-javaConfig/01-javaConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-SpringBoot/02-SpringBoot.iml" filepath="$PROJECT_DIR$/02-SpringBoot/02-SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Thymeleaf/03-Thymeleaf.iml" filepath="$PROJECT_DIR$/03-Thymeleaf/03-Thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-SpringBoot-Redis/04-SpringBoot-Redis.iml" filepath="$PROJECT_DIR$/04-SpringBoot-Redis/04-SpringBoot-Redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-SB-dubbo-interface/05-SB-dubbo-interface.iml" filepath="$PROJECT_DIR$/05-SB-dubbo-interface/05-SB-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SB-dubbo-provider/06-SB-dubbo-provider.iml" filepath="$PROJECT_DIR$/06-SB-dubbo-provider/06-SB-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-SB-dubbo-consumer/07-SB-dubbo-consumer.iml" filepath="$PROJECT_DIR$/07-SB-dubbo-consumer/07-SB-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-dubbo-provider/11-dubbo-provider.iml" filepath="$PROJECT_DIR$/11-dubbo-provider/11-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-dubbo-consumer/12-dubbo-consumer.iml" filepath="$PROJECT_DIR$/12-dubbo-consumer/12-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21-dubbo-link-interface/21-dubbo-link-interface.iml" filepath="$PROJECT_DIR$/21-dubbo-link-interface/21-dubbo-link-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22-dubbo-link-provider/22-dubbo-link-provider.iml" filepath="$PROJECT_DIR$/22-dubbo-link-provider/22-dubbo-link-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/23-dubbo-link-consumer/23-dubbo-link-consumer.iml" filepath="$PROJECT_DIR$/23-dubbo-link-consumer/23-dubbo-link-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31-dubbo-zk-interface/31-dubbo-zk-interface.iml" filepath="$PROJECT_DIR$/31-dubbo-zk-interface/31-dubbo-zk-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32-dubbo-zk-provider/32-dubbo-zk-provider.iml" filepath="$PROJECT_DIR$/32-dubbo-zk-provider/32-dubbo-zk-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/33-dubbo-zk-consumer/33-dubbo-zk-consumer.iml" filepath="$PROJECT_DIR$/33-dubbo-zk-consumer/33-dubbo-zk-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/41-SB-dubbo-redis-interface/41-SB-dubbo-redis-interface.iml" filepath="$PROJECT_DIR$/41-SB-dubbo-redis-interface/41-SB-dubbo-redis-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/42-SB-dubbo-redis-provider/42-SB-dubbo-redis-provider.iml" filepath="$PROJECT_DIR$/42-SB-dubbo-redis-provider/42-SB-dubbo-redis-provider.iml" />
+    </modules>
+  </component>
+</project>

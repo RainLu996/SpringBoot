@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01-javaConfig" />
+    <file type="web" url="file://$PROJECT_DIR$/02-SpringBoot" />
+    <file type="web" url="file://$PROJECT_DIR$/03-Thymeleaf" />
+    <file type="web" url="file://$PROJECT_DIR$/04-SpringBoot-Redis" />
+    <file type="web" url="file://$PROJECT_DIR$/06-SB-dubbo-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/07-SB-dubbo-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/11-dubbo-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/12-dubbo-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/22-dubbo-link-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/23-dubbo-link-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/31-dubbo-zk-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/32-dubbo-zk-provider" />
+    <file type="web" url="file://$PROJECT_DIR$/33-dubbo-zk-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/42-SB-dubbo-redis-provider" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES5" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/01-javaConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/02-SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/11-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/12-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/03-SpringBoot-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/04-SpringBoot-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/21-dubbo-link-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/22-dubbo-link-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/23-dubbo-link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/31-dubbo-zk-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/32-dubbo-zk-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/33-dubbo-zk-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/05-SB-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/06-SB-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/07-SB-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/41-SB-dubbo-redis-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/42-SB-dubbo-redis-provider/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

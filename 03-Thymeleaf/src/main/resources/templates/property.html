@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Property</title>
+
+    <script type="text/javascript" th:src="@{/js/jquery-3.4.1.js}"></script>
+    <script type="text/javascript">
+        function clickFun(){
+            alert("button click");
+        }
+    </script>
+</head>
+<body>
+    <div style="margin-left: 350px">
+        <form th:action="@{/thyl/print}" th:method="${requestMethod}">
+            <input type="text" th:id="username" th:name="username" th:value="${name}"/>
+            <input type="button" th:id="btn" th:onclick="clickFun()" th:attr="value='按钮 click'" />
+            <input type="submit" value="submit">
+        </form>
+        <br/>
+        <br/>
+        <p th:attr="name=${name}">我是使用了自定义属性名称</p>
+    </div>
+</body>
+</html>

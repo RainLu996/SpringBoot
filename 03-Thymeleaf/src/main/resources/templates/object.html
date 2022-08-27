@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object</title>
+</head>
+<body>
+    <div th:style="'margin-left: 350px'">
+        <p th:text="${#request.getAttribute('reqdata')}">request 作用域</p>
+        <p th:text="${#request.getServerName()}"></p>
+        <p th:text="${#request.getServerPort()}"></p>
+        <p th:text="${#request.getServletPath()}"></p>
+        <br/>
+        <br/>
+        <p th:text="${#session.getAttribute('sessdata')}">session 中数据</p>
+        <p>处理#request，#session，session</p>
+        <p th:text="${#request.getServerName()}"></p>
+        <p th:text="${#request.getServerPort()}"></p>
+        <p th:text="${#request.getRequestURL()}"></p>
+        <p th:text="${#request.getRequestURI()}"></p>
+        <p th:text="${#request.getQueryString()}"></p>
+        <br/>
+        <br/>
+        <p th:text="${#session.getAttribute('loginname')}"></p>
+        <p th:text="${session.loginname}"></p>
+    </div>
+</body>
+</html>

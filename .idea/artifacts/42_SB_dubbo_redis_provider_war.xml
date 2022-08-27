@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="42-SB-dubbo-redis-provider:war">
+    <output-path>$PROJECT_DIR$/42-SB-dubbo-redis-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>42-SB-dubbo-redis-provider</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="SB-dubbo-redis-provider-1.0.0.war">
+      <element id="artifact" artifact-name="42-SB-dubbo-redis-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Each</title>
+</head>
+<body>
+    <div th:style="'margin-left: 350px'">
+        <p>循环遍历list（元素为String）</p>
+        <div th:each="str,strStat:${strlist}">
+            <p th:text="${str}"></p>
+            <p th:text="${strStat.current}"></p>
+        </div>
+        <br/>
+        <br/>
+        <hr/>
+        <p>循环遍历list（元素为Student）</p>
+        <div th:each="ul,ulStat:${userList}">
+            <p th:text="${ul.id}"></p>
+            <p th:text="${ul.name}"></p>
+            <p th:text="${ul.age}"></p>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <hr/>
+    <div th:style="'margin-left: 350px'">
+        <p>循环遍历array（元素为Student）</p>
+        <table border="1" cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <td>序号</td>
+                    <td>id</td>
+                    <td>姓名</td>
+                    <td>年龄</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="u,uStat:${userarray}" >
+                    <td th:text="${uStat.count}+'/'+${uStat.size}"></td>
+                    <td th:text="${u.id}"></td>
+                    <td th:text="${u.name}"></td>
+                    <td th:text="${u.age}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br/>
+    <br/>
+    <hr/>
+    <div th:style="'margin-left: 350px'">
+        <p>简单map</p>
+        <div th:each="m,mSt:${users}">
+            <p th:text="${mSt.count}"></p>
+            <p th:text="${m.key}"> </p>
+            <p th:text="${m.value.id}"></p>
+            <p th:text="${m.value.name}"></p>
+            <br/>
+        </div>
+        <br/>
+        <br/>
+        <hr/>
+        <p>嵌套map</p>
+        <div th:each="ul:${listmap}">
+            <div th:each="um:${ul}">
+                <p th:text="${um.key}"></p>
+                <p th:text="${um.value.id}"></p>
+                <p th:text="${um.value.name}">姓名是</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

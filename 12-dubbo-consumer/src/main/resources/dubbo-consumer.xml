@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!-- Spring的配置文件与dubbo【服务消费者】的配置文件 -->
+
+
+    <!-- 声明服务的名称：自定义的名字表示当前服务在dubbo框架中的唯一标识 -->
+    <dubbo:application name="12-dubbo-consumer"/>
+
+    <!-- 访问服务的协议及端口号 -->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+
+    <dubbo:reference id="consumerService" interface="com.lujun61.service.QueryUserInfo"
+                     url="dubbo://localhost:20880" registry="N/A"/>
+
+</beans>
